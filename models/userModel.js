@@ -29,7 +29,7 @@ const userSchema = new mongoose.Schema(
       default: 'user', // Set a default role if not provided
     },
     /*
-                                Balance
+                                balance
 -->add a new field called balance. Use the type property to specify that it is a number field.
 -->Set Default Value: To assign a default value to the balance field, use the default property.
 In this case, set the default value to 0 to indicate a starting balance of zero.
